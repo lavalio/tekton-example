@@ -9,7 +9,7 @@ spec:
         type: git
   steps:
     - name: run-test
-      image: golang:1.16-alpine
+      image: golang:1.17-alpine
       workingDir: /workspace/repo/src
       command: ["go"]
       args: ["test"]
