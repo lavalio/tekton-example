@@ -1,3 +1,3 @@
-module github.com/arthurk/tekton-example
+module github.com/lavalio/tekton-example
 
-go 1.16
+go 1.17
