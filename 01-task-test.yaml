@@ -14,7 +14,7 @@ spec:
         - echo
       args:
         - "Hello World"
-    - name: script
+    - name: script-example
       image: golang:1.17-alpine
       script: |
       #!/usr/bin/env bash
