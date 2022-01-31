@@ -18,7 +18,7 @@ spec:
       image: golang:1.17-alpine
       script: |
       #!/usr/bin/env bash
-      echo "Hello from Bash!@alpine"
+      echo "Hello from Bash!"
     - name: run-test
       image: golang:1.17-alpine
       workingDir: /workspace/repo/src
