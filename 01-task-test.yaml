@@ -14,12 +14,6 @@ spec:
         - echo
       args:
         - "Hello World"
-    - name: echo-hello-world
-      image: golang:1.17-alpine
-      script: |
-      #!/usr/bin/env bash
-      set -xe
-      echo "Hello World!"
     - name: run-test
       image: golang:1.17-alpine
       workingDir: /workspace/repo/src
